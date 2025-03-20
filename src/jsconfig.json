@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "baseUrl": "src",
+    "paths": {
+      "components/*": [
+        "components/*"
+      ],
+      "containers/*": [
+        "layouts/*"
+      ],
+      "myRedux/*": [
+        "myRedux/*"
+      ],
+      "helpers/*": [
+        "myRedux/*"
+      ],
+      "assets/*": [
+        "assets/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
