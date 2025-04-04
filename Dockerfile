@@ -7,7 +7,7 @@
 # You can find the appropriate image on Docker Hub: https://hub.docker.com/_/node
 # In this example, we're using node:20-alpine3.20
 # run in termilnal commande line "node --version to get the version of your app"
-FROM node:v18.19.1 AS build
+FROM node:18-alpine AS build
 
 # Set the working directory inside the container
 WORKDIR /home/ubuntu/Portfolio
