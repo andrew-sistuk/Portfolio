@@ -7,6 +7,11 @@ export default defineConfig({
   build: {
     sourcemap: true,
   },
+  base: "/",
+  server: {
+    //Specify the development server port
+    port: 3001,
+  },
   resolve: {
     alias: {
       components: '/src/components',
